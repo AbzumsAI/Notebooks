@@ -9,7 +9,7 @@ This repository contains programming assignments and solutions for the AbzumsAI 
 3. Complete the tasks in your own code
 4. Upload your solutions to your personal GitHub repository
 5. Email your completed assignment link to AbzumsAI@gmail.com by the deadline
-6. Track your results on the Scoreboard sheet
+6. Track your results on the [Scoreboard sheet](https://docs.google.com/spreadsheets/d/1NxQzCrHAEV0NUp7ZSi5wTUtlweU7Qyt8WzwacMUepL8/edit?usp=sharing)
 
 ## Repository Structure
 
@@ -22,7 +22,7 @@ This repository contains programming assignments and solutions for the AbzumsAI 
 ## Getting Started
 
 1. Clone this repository
-2. Open the notebook files using Jupyter Notebook or compatible IDE
+2. Open the notebook files using Jupyter Notebook or a compatible IDE
 3. Follow the instructions in each notebook
 4. Complete the assignments as specified
 
