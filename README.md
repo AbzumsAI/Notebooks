@@ -19,6 +19,9 @@ I keep the course assignment notebooks here so each homework file has one clear 
 - [HW8.txt](HW8.txt) points to the data visualization assignment.
 - [SUBMISSION.md](SUBMISSION.md) explains how I expect homework links to be sent.
 - `solutions` has checked reference answers for assignments 1 to 7.
+- `sessions` has cleaned class notebooks recovered from the chat export.
+- `masterclasses` has cleaned NumPy and Pandas notebooks recovered from the chat export.
+- `projects` has the clinic appointment project guide notebook.
 
 ## Open A Notebook
 
@@ -28,6 +31,7 @@ Use Jupyter Notebook, JupyterLab, VS Code, or Google Colab. If a notebook needs 
 
 - `docs/notebook-index.md` lists each notebook and cell count.
 - `docs/solution-index.md` lists the reference answer files.
+- `docs/chat-notebook-imports.md` lists the cleaned notebooks recovered from chat.
 - `docs/local-setup.md` shows a simple local setup.
 - `docs/submission-review.md` is the check I use before sharing a link.
 - `notes` has a short note for each assignment file.
