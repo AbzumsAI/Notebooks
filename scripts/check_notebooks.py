@@ -26,7 +26,11 @@ def check_notebook(path: Path) -> list[str]:
 
 
 def main() -> int:
-    notebooks = sorted(ROOT.glob("*.ipynb"))
+    notebooks = [
+        path
+        for path in sorted(ROOT.rglob("*.ipynb"))
+        if ".ipynb_checkpoints" not in path.parts
+    ]
     errors: list[str] = []
     for notebook in notebooks:
         errors.extend(check_notebook(notebook))
