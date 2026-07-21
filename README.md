@@ -22,3 +22,12 @@ I keep the course assignment notebooks here so each homework file has one clear 
 ## Open A Notebook
 
 Use Jupyter Notebook, JupyterLab, VS Code, or Google Colab. If a notebook needs an extra package, install it in the same environment before running the cells.
+
+## Extra Notes
+
+- `docs/notebook-index.md` lists each notebook and cell count.
+- `docs/local-setup.md` shows a simple local setup.
+- `docs/submission-review.md` is the check I use before sharing a link.
+- `notes` has a short note for each assignment file.
+- `scripts/check_notebooks.py` checks the notebook JSON files.
+- `scripts/check_repo_files.py` checks that the expected assignment files are present.
