@@ -12,6 +12,23 @@ required = [
     "HW6.ipynb",
     "HW7.ipynb",
     "HW8.txt",
+    "docs/solution-index.md",
+    "solutions/README.md",
+    "solutions/python/assignment1_solution.py",
+    "solutions/python/assignment2_solution.py",
+    "solutions/python/assignment3_solution.py",
+    "solutions/python/assignment4_solution.py",
+    "solutions/python/assignment5_solution.py",
+    "solutions/python/assignment6_solution.py",
+    "solutions/python/assignment7_solution.py",
+    "solutions/notebooks/assignment1_solution.ipynb",
+    "solutions/notebooks/assignment2_solution.ipynb",
+    "solutions/notebooks/assignment3_solution.ipynb",
+    "solutions/notebooks/assignment4_solution.ipynb",
+    "solutions/notebooks/assignment5_solution.ipynb",
+    "solutions/notebooks/assignment6_solution.ipynb",
+    "solutions/notebooks/assignment7_solution.ipynb",
+    "scripts/check_solution_files.py",
 ]
 
 missing = [name for name in required if not (ROOT / name).exists()]
