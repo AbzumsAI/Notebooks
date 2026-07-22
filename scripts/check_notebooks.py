@@ -3,6 +3,11 @@ import json
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
+ALLOWED_TEXT_SYMBOLS = {chr(0x03C0), chr(0x20AC)}
+BLOCKED_SYMBOLS = {
+    chr(0x2013): "en dash",
+    chr(0x2014): "em dash",
+}
 
 
 def check_notebook(path: Path) -> list[str]:
@@ -21,6 +26,15 @@ def check_notebook(path: Path) -> list[str]:
             errors.append(f"{path.name}: cell {index} has an unknown type")
         if "source" not in cell:
             errors.append(f"{path.name}: cell {index} has no source")
+        text = "".join(cell.get("source", []))
+        for symbol, label in BLOCKED_SYMBOLS.items():
+            if symbol in text:
+                errors.append(f"{path.name}: cell {index} has {label}")
+        for char in text:
+            if ord(char) > 127 and char not in ALLOWED_TEXT_SYMBOLS:
+                code = f"U+{ord(char):04X}"
+                errors.append(f"{path.name}: cell {index} has {code}")
+                break
 
     return errors
 

@@ -1,6 +1,6 @@
-﻿# Notebook1.ipynb
+# HW1.ipynb
 
-I use this note as the quick check for `Notebook1.ipynb`.
+I use this note as the quick check for `HW1.ipynb`.
 
 This notebook has 21 cells: 6 code cells and 15 markdown cells.
 
@@ -12,4 +12,4 @@ This notebook has 21 cells: 6 code cells and 15 markdown cells.
 4. Save the notebook after the final run.
 5. Push the solved copy to your own repo.
 
-I keep the original file name so the grader can match it to the assignment.
+I keep the file name aligned with the homework number so it is easy to match to Assignment 1.

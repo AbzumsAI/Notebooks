@@ -14,12 +14,12 @@ I keep the course assignment notebooks here so each homework file has one clear 
 
 ## Files
 
-- [Notebook1.ipynb](Notebook1.ipynb) is the starter template.
+- [HW1.ipynb](HW1.ipynb) is the first assignment notebook.
 - [HW2.ipynb](HW2.ipynb) to [HW7.ipynb](HW7.ipynb) are notebook assignments.
 - [HW8.txt](HW8.txt) points to the data visualization assignment.
 - [SUBMISSION.md](SUBMISSION.md) explains how I expect homework links to be sent.
 - `solutions` has checked reference answers for assignments 1 to 7.
-- `sessions` has cleaned class notebooks recovered from the chat export.
+- `sessions` has cleaned class notebooks recovered from the chat export, named by the session number in each notebook title.
 - `masterclasses` has cleaned NumPy and Pandas notebooks recovered from the chat export.
 - `projects` has the clinic appointment project guide notebook.
 
